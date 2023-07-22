@@ -20,8 +20,8 @@ echo "<br>";
 //İN_ARRAY FONKSİYONU= SAMANLIĞIN İÇİNDE İĞNE ARAMAK.
 echo "C=>İN_ARRAY FONKSİYONU SAMANLIĞIN İÇİNDE İĞNE ARAMAK.";
 echo "<br>";
-$bilgi2=["İSİM"=>"ETHEM TUĞRUL ARAÇ", "MESLEK"=>"TEACHER","YAŞ"=>"25"];
-if(in_array("ETHEM TUĞRUL ARAÇ",$bilgi2)){
+$bilgiiii=["İSİM"=>"ETHEM TUĞRUL ARAÇ", "MESLEK"=>"TEACHER","YAŞ"=>"25"];
+if(in_array("ETHEM TUĞRUL ARAÇ",$bilgiiii)){
     echo "okey";
 }
 else

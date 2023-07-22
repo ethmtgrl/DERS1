@@ -10,6 +10,7 @@
    echo "HELLO WORLD";*/
    //Bu kod ekrana h1 etiketleri içerisinde www.kaanacademy.com yazdırmayı sağlar.
    echo "<h1>"www.kaanacademy.com"</h1>";
+   echo "ETHEM TUĞRUL ARAÇ";
     ?>
 
     
