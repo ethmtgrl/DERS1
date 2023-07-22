@@ -40,10 +40,19 @@ echo "<br>";
 <body>
     <?php $yaşı=19;?>
     <?php if ($yaşı>18):?>
-    <p>Siteye Hoşgeldiniz</p>
+    <p style="color:green">Siteye Hoşgeldiniz</p>
 
     <?php else:?>
-    <p>Siteye Giremezsiniz</p>
+    <p style="color:red">Siteye Giremezsiniz</p>
     <?php endif?>
+    <?php
+    $yaş=19;
+if ($yaş>18):
+    echo "<p style=\"color:green;\">hojgeldin</p>";
+else:
+    echo "siteye giremen gardaşcım";
+endif;
+?>
+
 </body>
 </html>
