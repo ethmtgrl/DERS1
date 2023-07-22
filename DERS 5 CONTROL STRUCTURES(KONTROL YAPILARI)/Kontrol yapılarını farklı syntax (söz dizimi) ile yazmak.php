@@ -2,9 +2,9 @@
 echo "<h1>İF ELSE FARKLI(SYNTAX) İLE YAZMAK</h1>";
 $yaş=19;
 if ($yaş>18):
-    echo "hojgeldin";
+    echo "Hoşgeldiniz.";
 else:
-    echo "siteye giremen gardaşcım";
+    echo "Siteye Giremezsiniz.";
 endif;
 echo "<br>";
     echo "<h1>BİR BAŞKA SWİTCH CASE KULLANIMI</h1>";
@@ -48,9 +48,9 @@ echo "<br>";
     <?php
     $yaş=19;
 if ($yaş>18):
-    echo "<p style=\"color:green;\">hojgeldin</p>";
+    echo "<p style=\"color:green;\">Hoşgeldiniz.</p>";
 else:
-    echo "siteye giremen gardaşcım";
+    echo "Siteye Giremezsiniz.";
 endif;
 ?>
 
