@@ -14,11 +14,18 @@ while ($o>=0) {
 echo "<br>";
 $isimler= ["ethem","tuğrul","araç"];
 $index=0;
-while ($index<3) {
+while ($index<count($isimler)) {//İsimler eleman sayısı kadar demek istedik.
     echo $isimler[$index]." ";//KAÇINCI İNDEX'E DENK GELEN İSİMLERİ YAZDIRICAK.
     $index++;
 }
-
+echo "<br>";
+echo count($isimler);// ARRAYİN İÇİNDE KAÇ ELEMAN OLDUĞUNU SÖYLER CUNT FONKSİYONU.
+echo "<br>";
+$i=0;
+while($i<=50){
+    echo "$i -";
+    $i+=2; 
+}
 
 
 ?>
