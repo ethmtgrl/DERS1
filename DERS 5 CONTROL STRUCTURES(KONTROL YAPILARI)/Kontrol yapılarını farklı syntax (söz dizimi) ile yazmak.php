@@ -48,11 +48,15 @@ echo "<br>";
     <?php
     $yaş=19;
 if ($yaş>18):
-    echo "<p style=\"color:green;\">Hoşgeldiniz.</p>";
+    echo "<p style=\"color:green;\">Hoşgeldiniz.</p>";// RENK AYARLARINI BURADAN YAPABİLİRİZ.
 else:
     echo "Siteye Giremezsiniz.";
 endif;
+echo "<br>";
+$YAŞ=15;
+$YAŞ=$YAŞ>18?"Siteye Hoşgeldiniz": "Siteye Giremezsiniz";
+//$YAŞrenk = $YAŞ>18 ? "green" : "red";
 ?>
-
+<p style= "color: <?php echo $YAŞ>18 ? "green" : "red" ?>; "> <?php echo $YAŞ ?> </p> <?php //BU ŞEKİLDE DE YAPABİLİRİZ RENK AYARLARINI.
 </body>
 </html>
