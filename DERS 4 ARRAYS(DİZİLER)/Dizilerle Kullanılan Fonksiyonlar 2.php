@@ -98,7 +98,7 @@ echo "<br>";
 //ASORT FONKSİYONU= SORT SIRALAMA DEMEK. SIRALAMA YAPAR.
 echo "K=>ASORT FONKSİYONU= SORT SIRALAMA DEMEK. SIRALAMA YAPAR.";
 echo "<br>";
-$bilgi8=["ADI"=>"ETHEM", "SOYADI"=>"KILINÇ","EŞİ"=>"TESLİME","MESLEK"=>"ÖĞRETMEN","YAŞI"=>"25"];
+$bilgi8=["ADI"=>"ETHEM", "SOYADI"=>"KILINÇ","EŞİ"=>"yok","MESLEK"=>"ÖĞRETMEN","YAŞI"=>"25"];
 asort($bilgi8);
 print_r($bilgi8);
 echo "<br>";

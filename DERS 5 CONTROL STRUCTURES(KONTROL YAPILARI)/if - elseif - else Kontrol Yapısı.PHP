@@ -182,7 +182,7 @@ else {
 }
 echo "<br>";
 $yaş=17;
-$yaşa= $yaş>18?"siteye hoşgeldinn":"siktir git";// 18 den büyükse : solunu yazdırır deüil ise sağındakileri yazdırır.
+$yaşa= $yaş>18?"siteye hoşgeldinn":"Siteye giremezsin";// 18 den büyükse : solunu yazdırır deüil ise sağındakileri yazdırır.
 echo $yaşa;
 
 

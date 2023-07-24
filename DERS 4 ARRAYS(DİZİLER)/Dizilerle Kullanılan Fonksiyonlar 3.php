@@ -71,13 +71,13 @@ print_r($bilgiarama);
 echo "<br>";
 echo "<b>10)ARRAY_RAND</b>";//ARRAY'İN İÇİNDEKİ KEYSLERİ RASTGELE VERİR. 
 echo "<br>";
-$bilgi6=["isim"=>"ETHEM","soyad"=>"ARAÇ","yaş"=>"25","hanimi"=>"teslime"];
+$bilgi6=["isim"=>"ETHEM","soyad"=>"ARAÇ","yaş"=>"25","hanimi"=>"imran"];
 $bilgiarama=array_rand($bilgi6,2);//($....,kaç keys yazacağını söyleriz);
 print_r($bilgiarama);
 echo "<br>";
 echo "<b>11)ARRAY_İNTERSECT</b>";//2 FARKLI KESİŞEN DEĞERLERİNİ YAZDIRIR.
 echo "<br>";
-$bilgi7=["isim"=>"ETHEM","soyad"=>"ARAÇ","yaş"=>"25","hanimi"=>"teslime"];
+$bilgi7=["isim"=>"ETHEM","soyad"=>"ARAÇ","yaş"=>"25","hanimi"=>"imran"];
 $bilgi8=["isim"=>"ETHEM","soyad"=>"ARAÇ",];
 $bilgiarama=array_intersect($bilgi7,$bilgi8);//($....,2.$.....);
 print_r($bilgiarama);
@@ -99,7 +99,7 @@ echo "<br>";
 echo "<b>14)ARRAY_COMBİNE</b>";//BİRİ KEYS VE BİRİ VALUE OLACAK ŞEKİLDE İKİ TANE ARRAYİ TEK ÇATI ALTINDA BİRLEŞTİRİR.
 echo "<br>";
 $keys=["isim","soyad","yaş","hanimi"];
-$value=["ethem","araç",25,"teslime"];
+$value=["ethem","araç",25,"imran"];
 $bilgicombine=array_combine($keys,$value);
 print_r($bilgicombine);
 echo "<br>";
@@ -124,9 +124,9 @@ print_r ($ilveilçeler);
 echo "<br>";
 echo "<b>16)ARRAY_FİLTER</b>";//İNT YA DA STRİNG'İ FİLTRELİYORUZ.
 echo "<br>";
-$sayilar2=["ethem","tuğrul","teslime","teslime","merhaba"];
+$sayilar2=["ethem","tuğrul","imran","imran","merhaba"];
 $filtrelenmişsayilar=array_filter($sayilar2,function ($değerler){
-    //return $değerler=="teslime";//BURADA BİR STRİNG İFADEYİ FİLTRELEDİK.
+    //return $değerler=="imran";//BURADA BİR STRİNG İFADEYİ FİLTRELEDİK.
     //return $değerler>1 and $değerler<3; İNT İFADEYİ DEĞERLER ARASINDA FİLTRELEDİK.
     return strstr($değerler,"et");//strstr fonksiyonu string dönderir ve needle bulmamızı sağlıyor.
 });
