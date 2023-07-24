@@ -1,14 +1,16 @@
 <?php
-$sayilar= (1);
-$sayilar++;
-echo $sayilar;
-echo "<br>";
-$bilgi= array("ethem"=>"İSMİ","sayi"=>1.2,"merhaba"=>"hello world");
-if (is_array($bilgi)){
-    echo "okey";
+$a=10;
+while ($a>=0) {
+    echo $a."<br>";
+    $a--;
 }
-else
-    echo "no";
+$b = ["ethem","tuğrul","araç"];
+$c =0;
+while ($c <=count($b)) {
+    echo $b[$c]." ";
+    $c++;
+}
+
     
 
 
