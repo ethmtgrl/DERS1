@@ -7,7 +7,19 @@ foreach ($bilgi as $key=>$value){
 foreach($i as $key=>$value){
     echo $key."=>".$value."<br>";
 }
-
+//SAYİLARLA FOREACH KULLANDIK.
+$sayilar=[0,4,5,5,6,7,8];
+$toplam=0;
+foreach($sayilar as $sayi){
+    $toplam += $sayi;
+}
+echo $toplam;
+echo "<br>";
+$isimler=["ethem","tuğrul","araç"];
+$isim=null;
+foreach($isimler as $kelime){
+    echo $kelime." ";
+}
 
 
 
