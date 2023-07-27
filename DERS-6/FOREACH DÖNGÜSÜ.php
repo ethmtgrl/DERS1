@@ -20,10 +20,22 @@ $isim=null;
 foreach($isimler as $kelime){
     echo $kelime." ";
 }
-
-
-
-
+echo "<br>";
+$hacettepe=["ilyas","derya","hasan ali","ismail"];// isimleri yan yana yazdırır
+foreach ($hacettepe as $kelime){
+    echo $kelime." ";
+}
+echo "<br>";
+$ikizler=["nasuh","akasya"];
+$soyadi="tari";
+foreach ($ikizler as $value) {
+    echo $value." ".$soyadi."<br>";
+}
+echo "<br>";
+$a=["VOLKAN"=>"NASUH","NERMİN"=>"AKASYA"];
+    foreach ($a as $ebeveynler=>$çocuklar){
+        echo $ebeveynler."=>".$çocuklar."<br>";
+    }
 
 
 
